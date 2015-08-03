@@ -1,0 +1,37 @@
+#!/usr/bin/env bash
+
+underline=`tput smul`
+bold=`tput bold`
+normal=`tput sgr0`
+
+err () {
+  echo ""
+  echo "${bold}ERROR:${normal}"
+  echo ""
+  echo "$1"
+  echo ""
+  exit 1
+}
+
+# Make sure node is installed
+
+node -v &> /dev/null
+
+if [ "$?" != "0" ]
+then
+  err "Looks like you don't have node.js installed.
+Go to ${underline}https://nodejs.org/${normal} to download and install it."
+fi
+
+# Make sure that spark cli is installed
+
+spark &> /dev/null
+
+if [ "$?" != "0" ]
+then
+  err "Looks like you don't have the spark CLI installed. Run:
+
+${bold}npm i -g spark-cli${normal}
+
+to install it"
+fi
