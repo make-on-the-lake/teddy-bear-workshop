@@ -31,8 +31,8 @@ void loop() {
 }
 
 int trigger(String args) {
-  std::map<String, actionFunc>::iterator it;
-  it = actionRegistry.find(args);
+  std::map<std::string, actionFunc>::iterator it;
+  it = actionRegistry.find(args.c_str());
   if (it == actionRegistry.end()) {
     it = actionRegistry.find("default");
   }

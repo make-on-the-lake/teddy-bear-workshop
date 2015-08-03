@@ -5,4 +5,4 @@
 
 typedef int (*actionFunc)();
 
-std::map<String, actionFunc> actionRegistry;
+std::map<std::string, actionFunc> actionRegistry;
