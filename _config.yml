@@ -1,0 +1,13 @@
+safe: true
+exclude:
+  - /embedded
+  - /scripts
+  - /.env
+  - /compile
+  - /flash
+  - /README.md
+  - /vendor
+baseurl: /teddy-bear-workshop
+motlurl: http://www.meetup.com/Make-on-the-Lake/
+repourl: https://github.com/make-on-the-lake/teddy-bear-workshop
+workshop_name: Teddy Bear Workshop

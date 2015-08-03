@@ -1,0 +1,62 @@
+/* Page Header */
+.page-header {
+  background: url('../img/header-bg.jpeg') center center;
+  background-size: cover;
+}
+
+.page-header.small {
+  height: 155px;
+  padding: 20px;
+}
+
+.page-header.small h1 {
+  font-size: 2.5rem;
+}
+
+.page-header.small h2 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.page-header h2 a {
+  color: #fff;
+}
+
+/* Main Content */
+.main-content {
+  width: 1120px;
+  padding: 20px 0;
+}
+
+.main-content .main {
+  float: left;
+  width: 70%;
+}
+
+.main-content .main:after {
+  clear: both;
+}
+
+.main-content .sidebar {
+  float: left;
+  width: 30%;
+}
+
+/* Navigation */
+a.active {
+  font-weight: bold;
+}
+
+/* Debug */
+.debug-api-key {
+  width: 100%;
+}
+
+.debug-output {
+  margin: 10px !important;
+}
+
+/* Steps */
+#next-step-link {
+  float: right;
+}
