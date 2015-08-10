@@ -9,6 +9,7 @@ exclude:
   - /vendor
 motlurl: http://www.meetup.com/Make-on-the-Lake/
 
+meetupurl: http://www.meetup.com/Make-on-the-Lake/events/222697800/
 baseurl: /teddy-bear-workshop
 repourl: https://github.com/make-on-the-lake/teddy-bear-workshop
 workshop_name: Teddy Bear Workshop

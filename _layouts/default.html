@@ -2,10 +2,10 @@
 <html lang="en-us">
   {% include head.html %}
   <body>
-    <section class="page-header">
+    <section class="page-header {{ page.header_class }}">
       <h1 class="project-name">{{ site.workshop_name }}</h1>
       <h2 class="project-tagline">brought to you by <a href="{{ site.motlurl }}">Make on the Lake<a></h2>
-      <a href="{{ site.repourl }}" class="btn">View on GitHub</a>
+      <a href="{{ site.repourl }}" class="btn view-on-github">View on GitHub</a>
     </section>
 
     <section class="main-content">
