@@ -23,15 +23,15 @@ then
 Go to ${underline}https://nodejs.org/${normal} to download and install it."
 fi
 
-# Make sure that spark cli is installed
+# Make sure that particle cli is installed
 
-spark &> /dev/null
+particle &> /dev/null
 
 if [ "$?" != "0" ]
 then
-  err "Looks like you don't have the spark CLI installed. Run:
+  err "Looks like you don't have the particle CLI installed. Run:
 
-${bold}npm i -g spark-cli${normal}
+${bold}npm i -g particle-cli${normal}
 
 to install it"
 fi

@@ -3,15 +3,20 @@
   {% include head.html %}
   <body>
     <section class="page-header">
-      <h1 class="project-name">Teddy Bear Workshop</h1>
+      <h1 class="project-name">{{ site.workshop_name }}</h1>
       <h2 class="project-tagline">brought to you by <a href="{{ site.motlurl }}">Make on the Lake<a></h2>
       <a href="{{ site.repourl }}" class="btn">View on GitHub</a>
     </section>
 
     <section class="main-content">
+      <div class="sidebar">
+        {% include nav.html %}
+      </div>
       <div class="main">
         {{ content }}
       </div>
+      <br style="clear:both">
+      {% include footer.html %}
     </section>
 
   </body>

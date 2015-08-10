@@ -6,4 +6,4 @@ cd "$(dirname "$0")/embedded"
 
 source ../.env
 
-spark flash $ACCESS_TOKEN teddy
+spark flash $ACCESS_TOKEN ./teddy
