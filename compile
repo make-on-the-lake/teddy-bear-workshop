@@ -6,4 +6,4 @@ cd "$(dirname "$0")/embedded"
 
 source ../.env
 
-spark compile teddy --saveTo firmware.bin
+particle compile core teddy --saveTo firmware.bin
