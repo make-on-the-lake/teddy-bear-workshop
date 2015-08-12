@@ -1,8 +1,16 @@
+#define RIGHT_MIN 45
+#define RIGHT_MAX 120
+
+#define LEFT_MIN 60
+#define LEFT_MAX 7
+
+#define STANDARD_DELAY 300
+
 // WAVE_PARAMS
 // - Starting and end degree
 // - Mid degree
 // - Delay (ms)
-const int WAVE_PARAMS[] = {45, 120, 300};
+const int WAVE_PARAMS[] = {RIGHT_MIN, RIGHT_MAX, STANDARD_DELAY};
 
 // WAVE_PARAMS
 // - Starting and end degree for right arm
@@ -10,4 +18,4 @@ const int WAVE_PARAMS[] = {45, 120, 300};
 // - Starting and end degree for left arm
 // - Mid degree for left arm
 // - Delay (ms)
-const int DOUBLE_WAVE_PARAMS[] = {45, 120, 60, 7, 300};
+const int DOUBLE_WAVE_PARAMS[] = {RIGHT_MIN, RIGHT_MAX, LEFT_MIN, LEFT_MAX, STANDARD_DELAY};

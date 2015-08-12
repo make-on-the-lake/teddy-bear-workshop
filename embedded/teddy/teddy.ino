@@ -19,6 +19,9 @@ void setup() {
 
   Spark.function("trigger", trigger);
 
+  Spark.function("setl", set_left_arm);
+  Spark.function("setr", set_right_arm);
+
   register_actions();
 }
 
@@ -28,6 +31,20 @@ void loop() {
     delay(1000);
     trigger("");
   }
+}
+
+// tuning
+
+int set_left_arm(String args) {
+  int degs = args.toInt();
+  leftArm.write(degs);
+  return 0;
+}
+
+int set_right_arm(String args) {
+  int degs = args.toInt();
+  rightArm.write(degs);
+  return 0;
 }
 
 int trigger(String args) {
