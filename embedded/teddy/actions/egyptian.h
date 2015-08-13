@@ -1,20 +1,18 @@
 int egyptian_action() {
-  rightArm.write(RIGHT_MAX);
-  leftArm.write(LEFT_MIN);
-
-  delay(EGYPTIAN_DELAY);
-
-  rightArm.write(RIGHT_MIN);
-  leftArm.write(LEFT_MAX);
-
-  delay(EGYPTIAN_DELAY);
-
-  rightArm.write(RIGHT_MAX);
-  leftArm.write(LEFT_MIN);
-
-  delay(EGYPTIAN_DELAY);
-
-  arms_down_action();
+  rightArm.write(84);
+  leftArm.write(96);
+  delay(500);
+  rightArm.write(96);
+  leftArm.write(84);
+  delay(600);
+  rightArm.write(84);
+  leftArm.write(96);
+  delay(500);
+  rightArm.write(96);
+  leftArm.write(84);
+  delay(600);
+  rightArm.write(90);
+  leftArm.write(90);
 
   return 0;
 }

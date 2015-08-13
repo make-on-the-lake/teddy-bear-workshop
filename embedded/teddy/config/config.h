@@ -1,11 +1,11 @@
 // Min is when the arm is down
 // Max is when the arm is up
 
-#define RIGHT_MIN 45
-#define RIGHT_MAX 120
+#define RIGHT_MIN 80
+#define RIGHT_MAX 0
 
-#define LEFT_MIN 60
-#define LEFT_MAX 7
+#define LEFT_MIN 80
+#define LEFT_MAX 0
 
 #define EGYPTIAN_DELAY 1000
 
