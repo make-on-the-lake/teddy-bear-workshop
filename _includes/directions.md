@@ -40,6 +40,14 @@ Below is a table of the connections that need to be made
 | Left Yellow | `A0` |
 | Right Yellow | `A0` |
 
+Below are a few images to help you work with the breadboard to connect the
+servos and the pins.
+
+<div style="text-align:center">
+  <img src="{{ site.baseurl }}/public/img/bb1.png" alt="">
+  <img src="{{ site.baseurl }}/public/img/bb2.png" alt="">
+</div>
+
 ### Step 5: Tuning your stuffed animal and flashing your core
 
 Now that you've built the hardware it's time to load the software onto the bear.
