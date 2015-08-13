@@ -26,4 +26,7 @@ We'll have an assorted selection of stuffed animals for participants to use
 
 ## Building the Bear
 
-{% include directions.md %}
+<div class="print">
+{% capture directions %}{% include directions.md %}{% endcapture %}
+{{ directions | markdownify }}
+</div>

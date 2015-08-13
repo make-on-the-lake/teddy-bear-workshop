@@ -1,0 +1,14 @@
+@media print {
+  .page-header {
+    text-align: center !important;
+  }
+  .page-header .view-on-github {
+    display: none !important;
+  }
+  .sidebar {
+    display: none !important;
+  }
+  .site-footer {
+    display: none !important;
+  }
+}

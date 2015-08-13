@@ -4,6 +4,8 @@ cd "$(dirname "$0")/embedded"
 
 ./../scripts/check-dependencies || { exit 1; }
 
+particle setup
+
 echo ""
 echo "Now remind me again..."
 echo "What did you name your core again?"

@@ -6,4 +6,7 @@ header_class: small
 
 # Directions
 
-{% include directions.md %}
+<div class="print">
+{% capture directions %}{% include directions.md %}{% endcapture %}
+{{ directions | markdownify }}
+</div>

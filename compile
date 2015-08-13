@@ -4,6 +4,4 @@ cd "$(dirname "$0")/embedded"
 
 ./../scripts/check-dependencies || { exit 1; }
 
-source ../.env
-
 particle compile core teddy --saveTo firmware.bin
