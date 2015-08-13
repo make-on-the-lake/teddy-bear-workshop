@@ -92,6 +92,8 @@ when the event is triggered.  Below is a list of the available function inputs
 | wave      | Wave the right arm |
 |double_wave | Wave the right arm twice |
 |raise_arms | Raise both arms up then lower them down |
+| egyptian | Dance like an Egyptian |
+| arms_down | Lower both arms |
 
 ### Step 7: (When you get home) Connecting to home WIFI
 
