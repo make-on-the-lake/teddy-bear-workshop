@@ -1,4 +1,5 @@
 int egyptian_action() {
+
   rightArm.write(84);
   leftArm.write(96);
   delay(500);
