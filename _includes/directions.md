@@ -48,34 +48,7 @@ servos and the pins.
   <img src="{{ site.baseurl }}/public/img/bb2.png" alt="">
 </div>
 
-### Step 5: Tuning your stuffed animal and flashing your core
-
-Now that you've built the hardware it's time to load the software onto the bear.
-
-If you're doing this at the workshop then you should find an organizer or
-volunteer to assist you with this process.  If they are all busy then you can
-safely continue onto the next steps and come back to this later.
-
-If you are doing this at home then you're mostly on your own.  You can start
-however by cloning the
-<a href="https://github.com/make-on-the-lake/teddy-bear-workshop" target="_blank">teddy bear workshop repository</a>
-and then run the `./setup` command.  If you need any assistance feel free to
-contact William Yaworsky on <a href="http://meetup.com" target="_blank">meetup.com</a>.
-
-Now that your core is flashed it's time to tune your stuffed animal.  Since
-everyone's servos will be placed in slightly different locations inside the
-stuffed animals we will need to run some tests to figure out the degrees that
-the servos can rotate to.
-
-To do this use the particle cli to call the functions `setl` and `setr` to set
-each arm's servo rotation.  Once you've found the degrees which the servos can
-rotate to you will need to edit the code at `embedded/teddy/config/config.h` to
-reflect these degrees.
-
-And now run the `./flash` script to flash your stuffed animal with your custom
-tuned firmware.
-
-### Step 6: Creating IFFT recipes
+### Step 5: Creating IFFT recipes
 
 Now it's time to make your stuffed animal do something interesting.  Go to
 <a href="https://ifttt.com/" target="_blank">https://ifttt.com/</a> and sign
@@ -95,7 +68,7 @@ when the event is triggered.  Below is a list of the available function inputs
 | egyptian | Dance like an Egyptian |
 | arms_down | Lower both arms |
 
-### Step 7: (When you get home) Connecting to home WIFI
+### Step 6: (When you get home) Connecting to home WIFI
 
 Once you are home the easiest way to connect your stuffed animal to the internet
 will be to download the Spark Core app.
